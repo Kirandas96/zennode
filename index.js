@@ -11,7 +11,7 @@ function calculateShippingFee(totalQuantity, packageCapacity, shippingFeePerPack
 
 function calculateGiftWrapFee(quantity, giftWrapFeePerUnit) {
   const giftWrapFee = quantity * giftWrapFeePerUnit;
-  return giftWrapFee;
+  return giftWrapFee
 }
 
 function applyDiscountRules(quantity, totalQuantity, totalAmount) {
